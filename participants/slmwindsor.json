@@ -7,8 +7,8 @@
       }
     ],
     "projects": [
-        "https://metacpan.org/pod/DBI",
-	"https://metacpan.org/pod/DBD::Oracle",
-	"https://metacpan.org/pod/DBD::Pg"
+        "https://github.com/perl5-dbi/dbi",
+        "https://github.com/singingfish/DBD-Oracle",
+        "https://github.com/bucardo/dbdpg"
     ]
 }
