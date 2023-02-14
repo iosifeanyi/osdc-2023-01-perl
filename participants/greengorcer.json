@@ -10,6 +10,7 @@
     ],
     "projects": [
         "https://github.com/beyondgrep/ack3",
+        "https://github.com/yuki-kimoto/SPVM",
         "https://github.com/scikit-rf/scikit-rf",
 	"https://github.com/jupyter/notebook",
 	"https://github.com/pandas-dev/pandas",
