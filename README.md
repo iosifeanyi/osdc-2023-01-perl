@@ -215,4 +215,36 @@ Specifically we looked at
     * Some distributions don't have a link to their GitHub. In some cases it isn't hard to track down the repository and then you can change it to make it include the links to the GitHub repository and to the issues.
 * Blog about them!
 
+## Session 4 Docker
+
+(2023.02.28)
+
+We set out working on one of the Perl modules listed in the JSON files in the participants/ folder, but then ended up covering Docker.
+
+We used many examples from the [Docker slides](https://code-maven.com/slides/docker/) to introduce Docker.
+
+We saw the [Docker image](https://github.com/szabgab/mydocker) I use to deal with various open source projects.
+
+We added Dist::Zilla to this image.
+
+* [Video 4-1](https://youtu.be/jegwGfSC5rs)
+* [Video 4-2](https://youtu.be/N8ht-UDMqWQ)
+
+
 ### Assignment 4
+
+* Create a Docker image for yourself.
+* Run the tests of one of your favorite modules inside the container.
+* Write a blog post linking to the issues you opened and the Pull-Request you sent. Even if they have not been accepted. Then add the link of that blog post to your JSON file in the participants folder.
+
+
+## Session 5 plans for 2023.03.14
+
+* Show how to connect the GitHub repository to Docker hub.
+* Show one of my real-world projects using Docker compose
+* Show editing a project while it is running in Docker compose
+
+Take one of the projecs from the list of projects of the participants, run the tests locally using the Docker container (dr).
+Open issue when necessary. Set up GitHub Actions if needed. Create test coverage report.
+
+
