@@ -247,4 +247,7 @@ We added Dist::Zilla to this image.
 Take one of the projecs from the list of projects of the participants, run the tests locally using the Docker container (dr).
 Open issue when necessary. Set up GitHub Actions if needed. Create test coverage report.
 
+https://github.com/szabgab/playground
+https://hub.docker.com/repository/docker/szabgab/playground/general
+
 
