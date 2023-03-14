@@ -238,16 +238,53 @@ We added Dist::Zilla to this image.
 * Write a blog post linking to the issues you opened and the Pull-Request you sent. Even if they have not been accepted. Then add the link of that blog post to your JSON file in the participants folder.
 
 
-## Session 5 plans for 2023.03.14
+## Session 5
 
 * Show how to connect the GitHub repository to Docker hub.
+    * [Docker HUB](https://hub.docker.com/repository/docker/szabgab/playground/general)
+    * [GitHub](https://github.com/szabgab/playground)
+
+The configuration file of docker to map all the data (all the volumes, images, containers) to a disk which is not the default.
+
+```
+$ cat /etc/docker/daemon.json
+{
+    "data-root": "/home/data/docker"
+}
+```
+
+
 * Show one of my real-world projects using Docker compose
 * Show editing a project while it is running in Docker compose
+       * [PyDigger](https://pydigger.com/)
+       * [GitHub](https://github.com/szabgab/pydigger.com)
 
-Take one of the projecs from the list of projects of the participants, run the tests locally using the Docker container (dr).
+Take one of the projects from the list of projects of the participants, run the tests locally using the Docker container (dr).
 Open issue when necessary. Set up GitHub Actions if needed. Create test coverage report.
 
-https://github.com/szabgab/playground
-https://hub.docker.com/repository/docker/szabgab/playground/general
+* We looked at https://github.com/reneeb/Types-RENEEB and found out that Steve alredy had a fork and that his changes were already applied to the original repo. (The best course of action at this poiunt might be is to remove the fork and create it again.)
+    * We found that the project had clear instructions on how to set up the development environment and how to run the tests. Nice.
+    * We also found that some of the tests fail. Not so good. Steve will check why. He will probably open an issue with the failure. Even if later he finds out the reason, it is a good idea to have it documented on GitHub.
+
+* [Video 5-1](https://youtu.be/OtSv-abMCmg)
+* [Video 5-2](https://youtu.be/nYvXhBvMBSU)
+
+### Assignment 5
+
+* Pick one or more projects
+* Try to setup the local development envrionment.
+    * If you cannot, open an issue asking the auhtor how. (Feel free to mention me by including @szabgab and mentioning the course by including a link to to https://osdc.code-maven.com/
+    * If you can setup verify that there are clear instructions how to do this in the README file or in some other file (e.g. CONTRIBUTING).
+        * If there are not, send a PR with the instructions so the next person will have less trouble.
+    * Run the tests locally.
+        * If there are failures report them.
+    * Check if GitHub Actions is configured. If not, then configure it. (or open an issue asking the author if s/he wants it).
+    * Create test coverage report. Add more tests if possible.
+
+
+## Session 6 plans for 2023.03.21
+
+Take one of the projects from the list of projects of the participants, run the tests locally using the Docker container (dr).
+Open issue when necessary. Set up GitHub Actions if needed. Create test coverage report.
 
 
