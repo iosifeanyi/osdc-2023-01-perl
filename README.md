@@ -1,4 +1,4 @@
-# Open Sorce Development Course for Perl developers - 2023.01
+# Open Source Development Course for Perl developers - 2023.01
 
 https://osdc.code-maven.com/osdc-2023-01-perl/
 
@@ -47,7 +47,7 @@ https://osdc.code-maven.com/osdc-2023-01-perl/
 
 * Version Control
     * Why use version control?
-    * Wikipedia and the verion control there. Recommended to watch:
+    * Wikipedia and the version control there. Recommended to watch:
         * [How to edit wikipedia](https://code-maven.com/edit-wikipedia)
         * [How to edit wikipedia (in Hebrew)](https://he.code-maven.com/edit-wikipedia)
         * [Como editar una página en Wikipedia](https://es.code-maven.com/editar-wikipedia)
@@ -166,7 +166,7 @@ gitk --all
 
 * Set up your own website on github pages
 
-Once it is done add the follwing entry to your JSON file:
+Once it is done add the following entry to your JSON file:
 ```
     "github_page": "true",
 ```
@@ -211,7 +211,7 @@ Specifically we looked at
 
 * Find at least 2 Perl modules on CPAN Digger that has "something missing". Send a pull-request to each one of them.
     * Look at [CPAN Digger](https://cpan-digger.perlmaven.com/)
-    * Some distributions have a link to their GitHub repositorybut not to the "issues".
+    * Some distributions have a link to their GitHub repository but not to the "issues".
     * Some distributions don't have a link to their GitHub. In some cases it isn't hard to track down the repository and then you can change it to make it include the links to the GitHub repository and to the issues.
 * Blog about them!
 
@@ -262,7 +262,7 @@ $ cat /etc/docker/daemon.json
 Take one of the projects from the list of projects of the participants, run the tests locally using the Docker container (dr).
 Open issue when necessary. Set up GitHub Actions if needed. Create test coverage report.
 
-* We looked at https://github.com/reneeb/Types-RENEEB and found out that Steve alredy had a fork and that his changes were already applied to the original repo. (The best course of action at this poiunt might be is to remove the fork and create it again.)
+* We looked at https://github.com/reneeb/Types-RENEEB and found out that Steve already had a fork and that his changes were already applied to the original repo. (The best course of action at this point might be is to remove the fork and create it again.)
     * We found that the project had clear instructions on how to set up the development environment and how to run the tests. Nice.
     * We also found that some of the tests fail. Not so good. Steve will check why. He will probably open an issue with the failure. Even if later he finds out the reason, it is a good idea to have it documented on GitHub.
 
@@ -272,8 +272,8 @@ Open issue when necessary. Set up GitHub Actions if needed. Create test coverage
 ### Assignment 5
 
 * Pick one or more projects
-* Try to setup the local development envrionment.
-    * If you cannot, open an issue asking the auhtor how. (Feel free to mention me by including @szabgab and mentioning the course by including a link to to https://osdc.code-maven.com/
+* Try to setup the local development environment.
+    * If you cannot, open an issue asking the author how. (Feel free to mention me by including @szabgab and mentioning the course by including a link to to https://osdc.code-maven.com/
     * If you can setup verify that there are clear instructions how to do this in the README file or in some other file (e.g. CONTRIBUTING).
         * If there are not, send a PR with the instructions so the next person will have less trouble.
     * Run the tests locally.
@@ -284,7 +284,10 @@ Open issue when necessary. Set up GitHub Actions if needed. Create test coverage
 
 ## Session 6 plans for 2023.03.21
 
+
+
+## Session 7 plans for 2023.03.28
+
 Take one of the projects from the list of projects of the participants, run the tests locally using the Docker container (dr).
 Open issue when necessary. Set up GitHub Actions if needed. Create test coverage report.
-
 
