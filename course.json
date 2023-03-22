@@ -1,6 +1,8 @@
 {
     "title": "OSDC for Perl developers 2023.01",
     "id": "osdc-2023-01-perl",
+    "pages": true,
     "projects": true,
-    "start_date": "2023.01.24"
+    "start_date": "2023.01.24",
+    "end_date": null
 }
