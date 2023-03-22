@@ -8,6 +8,9 @@
     "posts": [
         {
             "url": "https://dev.to/szabgab/open-source-development-courses-5d4b"
+        },
+        {
+            "url": "https://dev.to/szabgab/fixing-code-and-documentation-setting-up-ci-a-session-in-osdc-6pk"
         }
     ],
     "projects": [
