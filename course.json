@@ -1,5 +1,6 @@
 {
     "title": "OSDC for Perl developers 2023.01",
     "id": "osdc-2023-01-perl",
+    "projects": true,
     "start_date": "2023.01.24"
 }
