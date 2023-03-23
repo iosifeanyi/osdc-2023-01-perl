@@ -170,7 +170,7 @@ gitk --all
 
 Once it is done add the following entry to your JSON file:
 ```
-    "github_page": "true",
+    "github_page": true,
 ```
 
 See the `mentors/szabgab.json` for an example.
