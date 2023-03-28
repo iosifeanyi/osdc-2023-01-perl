@@ -346,7 +346,36 @@ dzil cover
 * [Video 6-1](https://youtu.be/EuXjJNMlF7U)
 * [Video 6-2](https://youtu.be/j3fydLZ9cjU)
 
-## Session 7 plans for 2023.03.28
+## Session 7
+
+```
+cpanm --notest Module::Install
+cpanm --installdeps --notest .
+
+apt-get install libpq-dev
+cpanm --notes DBD::Pg
+
+```
+
+https://code-maven.com/slides/
+
+
+https://metacpan.org/dist/ack/view/ack
+https://beyondgrep.com/
+https://metacpan.org/dist/DBIx-Class
+
+https://www.githubstatus.com/
+
+https://code-maven.com/github-actions
+
+https://github.com/Perl5/DBIx-Class/pull/147
+
+* [Video 7-1](https://youtu.be/imB85UpzZVY)
+* [Video 7-2](https://youtu.be/bSx4Wxul8iM)
+
+
+## Session 8 plans for 2023.04.04
+
 
 * GitHub actions for a project that needs database access
 * Test coverage report for other projects
