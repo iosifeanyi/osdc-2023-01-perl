@@ -346,29 +346,95 @@ dzil cover
 * [Video 6-1](https://youtu.be/EuXjJNMlF7U)
 * [Video 6-2](https://youtu.be/j3fydLZ9cjU)
 
-## Session 7
+## Session 7 GitHub Action for DBIx-Class
+
+In this session we tried to add GitHub Actions (CI) to [DBIx::Class](https://metacpan.org/dist/DBIx-Class).
+
+It already had an extensive configuration of [Travis-CI](https://www.travis-ci.com/), but unfortunately Travis stopped its free service.
+
+I briefly explained how my [slides](https://code-maven.com/slides/) used to be generated using a Webhook.
+
+We used the [playground Docker image](https://github.com/szabgab/playground) we covered in a previous session.
+
+We still had to install [Module::Install](https://metacpan.org/pod/Module::Install) as it was a developer dependency.
 
 ```
 cpanm --notest Module::Install
-cpanm --installdeps --notest .
-
-apt-get install libpq-dev
-cpanm --notes DBD::Pg
-
 ```
 
-https://code-maven.com/slides/
+
+Then we could install all the other dependencies:
+
+```
+cpanm --installdeps --notest .
+```
+
+However when we ran `perl Makefile.PL` it still complained about a lot of missing modules. So we created a temporary file just to install those:
+
+```
+cpanm --notest Class::DBI::Plugin::DeepAbstractSearch
+cpanm --notest Class::MethodCache
+cpanm --notest Class::Unload
+cpanm --notest Date::Simple
+cpanm --notest DateTime::Format::MySQL
+cpanm --notest DateTime::Format::Pg
+cpanm --notest DateTime::Format::SQLite
+cpanm --notest DateTime::Format::Strptime
+cpanm --notest JSON
+cpanm --notest JSON::Any
+cpanm --notest JSON::DWIW
+cpanm --notest JSON::XS
+cpanm --notest Math::Base36
+cpanm --notest MooseX::Types::JSON
+cpanm --notest MooseX::Types::LoadableClass
+cpanm --notest MooseX::Types::Path::Class
+cpanm --notest PadWalker
+cpanm --notest Pod::Coverage
+cpanm --notest SQL::Translator
+cpanm --notest Test::EOL
+cpanm --notest Test::NoTabs
+cpanm --notest Test::Pod
+cpanm --notest Test::Pod::Coverage
+cpanm --notest Test::Strict
+cpanm --notest Text::CSV
+cpanm --notest Time::Piece::MySQL
+```
+
+There must be a better way to install all of these, but we could not find the instructions.
+So one addition to the project could be an easy way to find insttruction on how to set up
+the local development environment.
+
+After this we managed to run the tests though many were skipped for various reasons. For example some needed access to real databases.
+
+Then we set up CI based on one of the [GitHub Actions examples](https://code-maven.com/github-actions).
+
+We pushed it out, but it did not start to work. Yesterday GitHub had a big outage, so we looked at the [GitHub status](https://www.githubstatus.com/) and indeed, GitHub Actions was yellow. It did not work properly. Eventually it started our job, but it took several minutes to do so.
+
+To our (or at least my) surprise, once GitHub Actions started to run the tests passed on the first attempt.
 
 
-https://metacpan.org/dist/ack/view/ack
-https://beyondgrep.com/
-https://metacpan.org/dist/DBIx-Class
+However we wanted to see how to run the tests with PostgreSQL as well.
 
-https://www.githubstatus.com/
+For that we had to install [DBD::Pg](https://metacpan.org/pod/DBD::Pg), another module that does not have a CI. (neither to [DBD::mysql](https://metacpan.org/pod/DBD::mysql) nor [DBD::Oracle](https://metacpan.org/pod/DBD::Oracle) for that matter.
 
-https://code-maven.com/github-actions
+To install DBD::Pg locally we found in the readme of DBD::Pg which is linked from the [DBD-Pg](https://metacpan.org/dist/DBD-Pg) page. (I did not remember that during our session.)
 
-https://github.com/Perl5/DBIx-Class/pull/147
+
+```
+apt-get install libpq-dev
+cpanm --notest DBD::Pg
+```
+
+Then we added another YAML file for the GitHub Action, this time running insied a Docker container, based on the [PostgreSQL GitHub Action example](https://code-maven.com/github-actions).
+
+It needed some parameters to pass the hostname of the Postgres server, the name of the database, the username and the password.
+
+I briefly used and mentioned [ack](https://metacpan.org/dist/ack/view/ack) aka. [beyondgrep](https://beyondgrep.com/) an excellent grep-like tool in Perl.
+
+To our surprise this too worked on the first try. I was so surprised I had to see a more detailed report and thus we split the GitHub Action job up and had a separate section where we used [prove](https://metacpan.org/dist/Test-Harness/view/bin/prove) to run the tests in verbose mode.
+
+
+At the end we sent a [pull-request](https://github.com/Perl5/DBIx-Class/pull/147) with what we accomplished.
 
 * [Video 7-1](https://youtu.be/imB85UpzZVY)
 * [Video 7-2](https://youtu.be/bSx4Wxul8iM)
