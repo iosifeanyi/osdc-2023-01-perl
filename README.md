@@ -16,7 +16,8 @@ https://osdc.code-maven.com/osdc-2023-01-perl/
 * [Assignment 4](#assignment-4)
 * [Session 5: Docher HUB; Docker Compose](#session-5-docker-hub-docker-compose)
 * [Session 6: GitHub Actions for Types::RENEEB](#session-6-github-actions-for-typesreneeb)
-* [Nex](#nex)
+* [Session 7: GitHub Action for DBIx-Class, ack](#session-7-github-action-for-dbix-class-ack)
+* [Next](#next)
 
 ## Session 1: Welcome, Version Control, Journal, Slack
 
