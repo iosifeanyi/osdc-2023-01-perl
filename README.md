@@ -6,15 +6,16 @@ https://osdc.code-maven.com/osdc-2023-01-perl/
 
 ## TOC
 
-* [Session 1 - Welcome - Version Control - Journal - Slack](#session-1---welcome---version-control---journal---slack)
+* [Session 1: Welcome, Version Control, Journal, Slack](#session-1-welcome-version-control-journal-slack)
 * [Assignment 1](#assignment-1)
-* [Session 2 - Create GitHub Pages using the git CLI; GitHub Actions](#session-2---create-github-pages-using-the-git-cli-github-actions)
+* [Session 2: Create GitHub Pages using the git CLI; GitHub Actions](#session-2-create-github-pages-using-the-git-cli-github-actions)
 * [Assignment 2](#assignment-2)
-* [Session 3 - GitHub Actions, CPAN Digger](#session-3---github-actions-cpan-digger)
+* [Session 3: GitHub Actions, CPAN Digger](#session-3-github-actions-cpan-digger)
 * [Assignment 3](#assignment-3)
+* [Session 4: Docker](#session-4-docker)
 * [Assignment 4](#assignment-4)
-* [Session 5](#session-5)
-* [Session 6](#session-6)
+* [Session 5: Docher HUB; Docker Compose](#session-5-docker-hub-docker-compose)
+* [Session 6: GitHub Actions for Types::RENEEB](#session-6-github-actions-for-typesreneeb)
 * [Nex](#nex)
 
 ## Session 1: Welcome, Version Control, Journal, Slack
@@ -241,7 +242,7 @@ We added Dist::Zilla to this image.
 * Write a blog post linking to the issues you opened and the Pull-Request you sent. Even if they have not been accepted. Then add the link of that blog post to your JSON file in the participants folder.
 
 
-## Session 5: Docher HUB; Docker Compose
+## Session 5: Docker HUB; Docker Compose
 
 * Show how to connect the GitHub repository to Docker hub.
     * [Docker HUB](https://hub.docker.com/repository/docker/szabgab/playground/general)
@@ -347,7 +348,7 @@ dzil cover
 * [Video 6-1](https://youtu.be/EuXjJNMlF7U)
 * [Video 6-2](https://youtu.be/j3fydLZ9cjU)
 
-## Session 7 GitHub Action for DBIx-Class
+## Session 7: GitHub Action for DBIx-Class, ack
 
 In this session we tried to add GitHub Actions (CI) to [DBIx::Class](https://metacpan.org/dist/DBIx-Class).
 
