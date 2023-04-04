@@ -442,9 +442,30 @@ At the end we sent a [pull-request](https://github.com/Perl5/DBIx-Class/pull/147
 * [Video 7-1](https://youtu.be/imB85UpzZVY)
 * [Video 7-2](https://youtu.be/bSx4Wxul8iM)
 
+
+## Session 8
+
+* [Video 8-1](https://youtu.be/hqdeOy354QU)
+* [Video 8-2](https://youtu.be/ZmmWUE2etNo)
+
+* We saw how to setup a development environment for [https://metacpan.org/pod/DBD::Pg](https://metacpan.org/pod/DBD::Pg) using Docker and Docker Compose.
+* Then we looked at the coverage report of this module using [Devel::Cover](https://metacpan.org/pod/Devel::Cover)
+* We looked at [CPANcover](http://cpancover.com/)
+
+* We looked at the [CPAN River list of distribution](http://neilb.org/2016/01/26/river-head-quality.html)
+* We looked at the test coverage report of [DateTime::Format::Pg](https://metacpan.org/pod/DateTime::Format::Pg)
+* We tried to reproduce [this issue](https://github.com/lestrrat-p5/DateTime-Format-Pg/issues/23) but got to the conclusion that it looks like an incorrect expectaton from the user.
+* [DateTime::Format::Pg](https://metacpan.org/pod/DateTime::Format::Pg)
+* [DateTime::TimeZone](https://metacpan.org/pod/DateTime::TimeZone)
+* [Docker compose with PostgreSQL](https://code-maven.com/slides/docker/docker-compose-postgresql-server)
+* We talked about [Test-Exception](https://metacpan.org/pod/Test::Exception) and [SKIP](https://code-maven.com/slides/test-automation-using-perl/test-more-skip).
+* I mentioned the [Pay It Forward](https://osdc.code-maven.com/pif) project. Apparently it is an American expression.
+* It would be nice to add the test coverage numbers to [CPAN-Digger](https://cpan-digger.perlmaven.com/)
+
+
 ## Next
 
-## Session 8 plans for 2023.04.04
+## Session 9 plans for 2023.04.04
 
 
 * GitHub actions for a project that needs database access
