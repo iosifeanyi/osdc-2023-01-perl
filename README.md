@@ -465,8 +465,22 @@ At the end we sent a [pull-request](https://github.com/Perl5/DBIx-Class/pull/147
 
 ## Next
 
-## Session 9 plans for 2023.04.04
+## Session 9
 
+* git
+
+git add -i
+git stash -u
+git stash list
+git stash show
+git stash show -p
+
+
+* [Video 9-1](https://youtu.be/RR0tQbOhzzU)
+* [Video 9-2](https://youtu.be/rY3nTmJ4iRw)
+
+
+## Session 10 plans for 2023.04.25
 
 * GitHub actions for a project that needs database access
 * Test coverage report for other projects
@@ -476,3 +490,10 @@ At the end we sent a [pull-request](https://github.com/Perl5/DBIx-Class/pull/147
 Take one of the projects from the list of projects of the participants, run the tests locally using the Docker container (dr).
 Open issue when necessary. Set up GitHub Actions if needed. Create test coverage report.
 
+
+git
+    detached head
+    merge / rebase
+    reset
+    stash
+    bisect
