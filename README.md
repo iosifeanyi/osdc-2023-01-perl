@@ -443,7 +443,7 @@ At the end we sent a [pull-request](https://github.com/Perl5/DBIx-Class/pull/147
 * [Video 7-2](https://youtu.be/bSx4Wxul8iM)
 
 
-## Session 8
+## Session 8: DBD::Pg, test coverage with Devel::Cover
 
 * [Video 8-1](https://youtu.be/hqdeOy354QU)
 * [Video 8-2](https://youtu.be/ZmmWUE2etNo)
@@ -464,7 +464,7 @@ At the end we sent a [pull-request](https://github.com/Perl5/DBIx-Class/pull/147
 
 
 
-## Session 9
+## Session 9: git stash, detached head
 
 * git
 
@@ -479,7 +479,7 @@ git stash show -p
 * [Video 9-2](https://youtu.be/rY3nTmJ4iRw)
 
 
-## Session 10
+## Session 10: git stash and bisect, adding test to RSRU
 
 Date: 2023.04.25
 
