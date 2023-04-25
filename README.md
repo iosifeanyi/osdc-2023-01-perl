@@ -17,6 +17,9 @@ https://osdc.code-maven.com/osdc-2023-01-perl/
 * [Session 5: Docher HUB; Docker Compose](#session-5-docker-hub-docker-compose)
 * [Session 6: GitHub Actions for Types::RENEEB](#session-6-github-actions-for-typesreneeb)
 * [Session 7: GitHub Action for DBIx-Class, ack](#session-7-github-action-for-dbix-class-ack)
+* [Session 8: DBD::Pg, test coverage with Devel::Cover](#session-8-dbdpg-test-coverage-with-develcover)
+* [Session 9: git stash, detached head](#session-9-git-stash-detached-head)
+* [Session 10: git stash and bisect, adding test to RSRU](#session-10-git-stash-and-bisect-adding-test-to-rsru)
 * [Next](#next)
 
 ## Session 1: Welcome, Version Control, Journal, Slack
