@@ -463,7 +463,6 @@ At the end we sent a [pull-request](https://github.com/Perl5/DBIx-Class/pull/147
 * It would be nice to add the test coverage numbers to [CPAN-Digger](https://cpan-digger.perlmaven.com/)
 
 
-## Next
 
 ## Session 9
 
@@ -480,16 +479,9 @@ git stash show -p
 * [Video 9-2](https://youtu.be/rY3nTmJ4iRw)
 
 
-## Session 10 plans for 2023.04.25
+## Session 10
 
-* GitHub actions for a project that needs database access
-* Test coverage report for other projects
-
-* CPAN-Digger
-
-Take one of the projects from the list of projects of the participants, run the tests locally using the Docker container (dr).
-Open issue when necessary. Set up GitHub Actions if needed. Create test coverage report.
-
+Date: 2023.04.25
 
 git
     detached head
@@ -497,3 +489,26 @@ git
     reset
     stash
     bisect
+    revert
+
+* [Math::RPN](https://metacpan.org/pod/Math::RPN)
+* In the 2nd video we added a test to [RSRU](https://github.com/lordfeck/rsru) see the [Pull-request](https://github.com/lordfeck/rsru/pull/62)
+
+* [Video 10-1](https://youtu.be/TheqgwWH0MI)
+* [Video 10-2](https://youtu.be/qT8SK7OkVAs)
+
+## Next
+
+## Session 11 plans for 2023.05.02
+
+* GitHub actions for a project that needs database access
+* Test coverage report for other projects
+
+* CPAN-Digger
+* Work on the [CPAN Dashboard](https://cpandashboard.com/)
+
+Take one of the projects from the list of projects of the participants, run the tests locally using the Docker container (dr).
+Open issue when necessary. Set up GitHub Actions if needed. Create test coverage report.
+
+
+
