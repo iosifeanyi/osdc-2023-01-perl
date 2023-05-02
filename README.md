@@ -500,18 +500,35 @@ git
 * [Video 10-1](https://youtu.be/TheqgwWH0MI)
 * [Video 10-2](https://youtu.be/qT8SK7OkVAs)
 
+## Session 11: Git Flow;
+
+Date: 2023.05.02
+
+* We talked about Git Flow vs. having a single main branch. The latter would need a good (acceptance/integration) test coverage
+so you can trust the test for a release without requiring manual QA. (The manual QA can still work as exploratory testing
+that also feeds ideas to the people who then convert the test-cases into automated tests.
+
+* We looked at the CI system of [Test::Class](https://metacpan.org/pod/Test::Class) that first creates a release and then uses that release on various versions of Perl to test it. It also tests a number of downstream distributions to verify that the new version does not break them.
+* We looked at the GitHub Actions and the source code of [CPAN Dashboard](https://cpandashboard.com/)
+* We looked at the [MetaCPAN tools](https://metacpan.org/tools) and the experimental dashboard there.
+* We looked at the [stats page of PyDigger](https://pydigger.com/stats) and the mess of the [licenses](https://pydigger.com/licenses).
+* [CPAN Rocks](https://cpan.rocks/)
+
+* [Video 11-1](https://youtu.be/wC9GADfNI_o)
+* [Video 11-2](https://youtu.be/SPN6gHWkizs)
+
+
 ## Next
 
-## Session 11 plans for 2023.05.02
+## Session 12 plans for 2023.05.09
 
 * GitHub actions for a project that needs database access
 * Test coverage report for other projects
 
 * CPAN-Digger
-* Work on the [CPAN Dashboard](https://cpandashboard.com/)
 
 Take one of the projects from the list of projects of the participants, run the tests locally using the Docker container (dr).
 Open issue when necessary. Set up GitHub Actions if needed. Create test coverage report.
 
-
+## Session 13 plans for 2023.05.16
 
