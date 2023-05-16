@@ -500,7 +500,7 @@ git
 * [Video 10-1](https://youtu.be/TheqgwWH0MI)
 * [Video 10-2](https://youtu.be/qT8SK7OkVAs)
 
-## Session 11: Git Flow;
+## Session 11: Git Flow; GitHub Actions for Test::Class
 
 Date: 2023.05.02
 
