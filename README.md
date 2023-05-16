@@ -20,6 +20,7 @@ https://osdc.code-maven.com/osdc-2023-01-perl/
 * [Session 8: DBD::Pg, test coverage with Devel::Cover](#session-8-dbdpg-test-coverage-with-develcover)
 * [Session 9: git stash, detached head](#session-9-git-stash-detached-head)
 * [Session 10: git stash and bisect, adding test to RSRU](#session-10-git-stash-and-bisect-adding-test-to-rsru)
+* [Session 11: Git Flow; GitHub Actions for Test::Class](#session-11-git-flow-github-actions-for-testclass)
 * [Next](#next)
 
 ## Session 1: Welcome, Version Control, Journal, Slack
