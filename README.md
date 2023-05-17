@@ -518,10 +518,21 @@ that also feeds ideas to the people who then convert the test-cases into automat
 * [Video 11-1](https://youtu.be/wC9GADfNI_o)
 * [Video 11-2](https://youtu.be/SPN6gHWkizs)
 
+## Session 12
+
+* Date: 2023.05.16
+
+* [GitHub Action when files change](https://github.com/szabgab/github-actions-run-code-if-files-change/)
+
+* We talked about frequency of Pull-Requests or code-reviews.
+
+* Docker caching - changing the Makefile.PL outside will make the `COPY Makefile.PL .` command run again
+and that will trigger all the steps that follow it.
+
+* [Video 12-1](https://youtu.be/jrQYrqHQrq4)
+* Unfortunately I've forgotten to record the 2nd part.
 
 ## Next
-
-## Session 12 plans for 2023.05.09
 
 * GitHub actions for a project that needs database access
 * Test coverage report for other projects
