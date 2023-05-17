@@ -518,16 +518,30 @@ that also feeds ideas to the people who then convert the test-cases into automat
 * [Video 11-1](https://youtu.be/wC9GADfNI_o)
 * [Video 11-2](https://youtu.be/SPN6gHWkizs)
 
-## Session 12
+## Session 12: GitHub Actions; faster CI
 
 * Date: 2023.05.16
 
 * [GitHub Action when files change](https://github.com/szabgab/github-actions-run-code-if-files-change/)
+* [GitHub Actions with parameters](https://github.com/szabgab/github-actions-with-parameters)
 
 * We talked about frequency of Pull-Requests or code-reviews.
 
 * Docker caching - changing the Makefile.PL outside will make the `COPY Makefile.PL .` command run again
 and that will trigger all the steps that follow it.
+
+* We talked about CI processes that take too much time to run. Apparently I said earlier that they should run under 10 minutes which of course is just a randome number.
+* A few ideas how to deal with CI processes that take too long.
+* Ideally we would like to run all the tests on every push and we would like all the tests to finish within 1 second to get feedback quickly.
+* Only try to compile Perl scripts if one of the modules change.
+* Add more hardware so jobs can be run in parallel.
+* Divide the CI to several tiers.
+    * One that runs fast (1-2 min ?) and hopefully checks crtirical things. Run these on every commit.
+    * Another one that runs longer (e.g. 10 minutes) and we'll run it only every 10-15 minutes. Maybe we miss some of the pushes.
+    * Another tier that takes several hours. Run these only once the earlier one finishes.
+* Instead of rebuilding the database every time using Perl, dump the data and load it with the tools of the database. That should be much faster.
+* Cache installations of 3rd party libraries.
+
 
 * [Video 12-1](https://youtu.be/jrQYrqHQrq4)
 * Unfortunately I've forgotten to record the 2nd part.
