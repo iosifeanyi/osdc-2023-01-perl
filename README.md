@@ -546,15 +546,14 @@ and that will trigger all the steps that follow it.
 * [Video 12-1](https://youtu.be/jrQYrqHQrq4)
 * Unfortunately I've forgotten to record the 2nd part.
 
-## Next
+## Session 13: CVEs and lack of maintenance of CPAN modules
 
-* GitHub actions for a project that needs database access
-* Test coverage report for other projects
+Date 2023.05.23
 
-* CPAN-Digger
+* [Perl-related CVEs](https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=perl)
+* [GitHub Actions marketplace](https://github.com/marketplace?type=actions)
+* [GitHub Dependabot](https://docs.github.com/en/code-security/dependabot) and its [source code](https://github.com/dependabot)
 
-Take one of the projects from the list of projects of the participants, run the tests locally using the Docker container (dr).
-Open issue when necessary. Set up GitHub Actions if needed. Create test coverage report.
 
-## Session 13 plans for 2023.05.16
+* [Video 13-1](https://youtu.be/vfv0t9ImtpY)
 
