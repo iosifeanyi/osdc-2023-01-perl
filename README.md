@@ -87,6 +87,7 @@ https://osdc.code-maven.com/osdc-2023-01-perl/
     * Bold
 
 * [Video 1-1](https://youtu.be/HPUuiUBMbEE)
+    * 00:00 Welcome
 * [Video 1-2](https://youtu.be/qGAVORyZZrI)
 
 ### Assignment 1
