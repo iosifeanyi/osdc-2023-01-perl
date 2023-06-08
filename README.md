@@ -4,6 +4,10 @@ https://osdc.code-maven.com/osdc-2023-01-perl/
 
 * Start day: 2023.01.24
 
+## Video Playlist
+
+* [Playlist](https://www.youtube.com/playlist?list=PLw7UYp3N0eUY4XWXTedttHPquiLm8YNSy)
+
 ## TOC
 
 * [Session 1: Welcome, Version Control, Journal, Slack](#session-1-welcome-version-control-journal-slack)
